@@ -1,7 +1,20 @@
 //********
+//	Q#1
+//********
+
+
+
+//********
 //	Q#2
 //********
-var arrayStrings = [“Sam”, “Tommy”, “Tim”, “Sally”, “Buck”, “Bob”];
+var arrayStrings = ['Sam', 'Tommy', 'Tim', 'Sally', 'Buck', 'Bob'];
+var count = 0;
+for (var i = 0; i<arrayStrings.length; i++) {
+  count += arrayStrings[i].length;
+}
+var average = count / arrayStrings.length;
+console.log("The average of the strings of the name in the array is " + average.toFixed(2));
+
 
 
 
