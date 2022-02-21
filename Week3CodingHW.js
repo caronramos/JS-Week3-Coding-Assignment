@@ -15,7 +15,11 @@ for (var i = 0; i<arrayStrings.length; i++) {
 var average = count / arrayStrings.length;
 console.log("The average of the strings of the name in the array is " + average.toFixed(2));
 
-
+var allStrings = " ";
+for (var i = 0; i<arrayStrings.length; i++) {
+  allStrings += (arrayStrings[i] + " ");
+}
+console.log("The list of names in the array are as follows:"+ allStrings);
 
 
 //********
