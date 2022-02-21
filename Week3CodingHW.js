@@ -1,3 +1,7 @@
+//********
+//	Q#2
+//********
+var arrayStrings = [“Sam”, “Tommy”, “Tim”, “Sally”, “Buck”, “Bob”];
 
 
 
@@ -20,3 +24,5 @@ console.log("The first element in the array is " + firstElement);
 //********
 //	Q#5
 //********
+int []arrayLengths = 
+console.log();
