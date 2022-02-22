@@ -1,6 +1,7 @@
 //********
 //	Q#1
 //********
+int[] ages = new int[3, 9, 23, 64, 2, 8, 28, 93];
 
 
 
@@ -9,14 +10,14 @@
 //********
 var arrayStrings = ['Sam', 'Tommy', 'Tim', 'Sally', 'Buck', 'Bob'];
 var count = 0;
-for (var i = 0; i<arrayStrings.length; i++) {
+for (var i=0; i<arrayStrings.length; i++) {
   count += arrayStrings[i].length;
 }
-var average = count / arrayStrings.length;
+var average = (count/arrayStrings.length);
 console.log("The average of the strings of the name in the array is " + average.toFixed(2));
 
 var allStrings = " ";
-for (var i = 0; i<arrayStrings.length; i++) {
+for (var i=0; i<arrayStrings.length; i++) {
   allStrings += (arrayStrings[i] + " ");
 }
 console.log("The list of names in the array are as follows:"+ allStrings);
@@ -41,5 +42,33 @@ console.log("The first element in the array is " + firstElement);
 //********
 //	Q#5
 //********
-int []arrayLengths = 
-console.log();
+var arrayStrings = ['Sam', 'Tommy', 'Tim', 'Sally', 'Buck', 'Bob'];
+var nameLengths = [];
+for (var i=0; i<arrayStrings.length; i++) {
+  nameLengths[i]=arrayStrings[i].length;
+}
+console.log(nameLengths);
+
+
+//********
+//	Q#6
+//********
+var count = 0;
+for (var i=0; i<nameLengths.length; i++) {
+  count += nameLengths[i];
+}
+var average = (count/nameLengths.length);
+console.log("The average of the namelength in the array is " + average.toFixed(2));
+
+
+//********
+//	Q#7
+//********
+var string = "Hello";
+var count = 3;
+console.log(string.repeat(count));
+
+
+//********
+//	Q#8
+//********
