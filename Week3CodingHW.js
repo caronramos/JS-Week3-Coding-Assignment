@@ -124,7 +124,7 @@ for (var i=0; i<arrayDoubles2.length; i++) {
 var average2 = (count2/arrayDoubles2.length);
 console.log("The average of the doubles in the array is " + average2);
 
-function greaterThan(average, average2){
+function greaterThan(){
   if (average > average2){
     return true;
   }
@@ -136,7 +136,7 @@ console.log(greaterThan());
 
 
 //********
-//	Q#12 NOT DONNNNEEEE
+//	Q#12 
 //********
 var willBuyDrink
 if(isHotOutside = true && moneyInPocket>10.50){
