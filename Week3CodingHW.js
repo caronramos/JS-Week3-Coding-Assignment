@@ -102,13 +102,37 @@ for (var i=0; i<arrayDoubles.length; i++) {
   count += arrayDoubles[i];
 }
 var average = (count/arrayDoubles.length);
-console.log("The average of the namelength in the array is " + average);
+console.log("The average of the doubles in the array is " + average);
 
 
 //********
 //	Q#11
 //********
+var arrayDoubles = [1.0, 2.13, 3.4, 4.56, 5.7, 6.89, 7.10, 8.11, 9.012, 10.13];
+var count = 0;
+for (var i=0; i<arrayDoubles.length; i++) {
+  count += arrayDoubles[i];
+}
+var average = (count/arrayDoubles.length);
+console.log("The average of the doubles in the array is " + average);
 
+var arrayDoubles2 = [1.1, 2.3, 3.45, 4.6, 5.78, 6.9, 7.1011, 8.012, 9.1314, 10.015];
+var count2 = 0;
+for (var i=0; i<arrayDoubles2.length; i++) {
+  count2 += arrayDoubles2[i];
+}
+var average2 = (count2/arrayDoubles2.length);
+console.log("The average of the doubles in the array is " + average2);
+
+function greaterThan(average, average2){
+  if (average > average2){
+    return true;
+  }
+  else{
+    return false;
+  }
+}
+console.log(greaterThan());
 
 
 //********
