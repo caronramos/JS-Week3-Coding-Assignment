@@ -96,6 +96,18 @@ console.log(sum);
 //********
 //	Q#10 
 //********
+var arrayDoubles = [1.0, 2.13, 3.4, 4.56, 5.7, 6.89, 7.10, 8.11, 9.012, 10.13];
+var count = 0;
+for (var i=0; i<arrayDoubles.length; i++) {
+  count += arrayDoubles[i];
+}
+var average = (count/arrayDoubles.length);
+console.log("The average of the namelength in the array is " + average);
+
+
+//********
+//	Q#11
+//********
 
 
 
