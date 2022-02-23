@@ -72,3 +72,42 @@ console.log(string.repeat(count));
 //********
 //	Q#8
 //********
+var firstName = 'Caron';
+var lastName = 'Ramos';	
+var fullName = firstName.concat(" ", lastName);
+console.log(fullName);
+
+
+//********
+//	Q#9 
+//********
+var arrayOfIntegers = [5, 10];
+var sum = arrayOfIntegers.reduce(function (a, b){
+    if((a + b) > 100){
+        return true + ", " + (a + b) + " is greater than 100.";
+    }
+    else{
+      return false + ", " + (a + b) + " is less than 100.";
+    }
+});
+console.log(sum);
+
+
+//********
+//	Q#10 
+//********
+
+
+
+//********
+//	Q#12 NOT DONNNNEEEE
+//********
+var willBuyDrink
+if(isHotOutside = true && moneyInPocket>10.50){
+  	return true;
+}
+else{
+  	return false;
+}
+
+
