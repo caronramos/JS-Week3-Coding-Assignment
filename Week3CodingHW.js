@@ -138,12 +138,21 @@ console.log(greaterThan());
 //********
 //	Q#12 
 //********
-var willBuyDrink
-if(isHotOutside = true && moneyInPocket>10.50){
-  	return true;
+let isHotOutside = true;
+var moneyInPocket = 10;
+function willBuyDrink(){
+  if(isHotOutside == true && moneyInPocket>10.50){
+      return true;
+  }
+  else{
+      return false;
+  }
 }
-else{
-  	return false;
-}
+console.log(willBuyDrink());
+
+
+//********
+//	Q#13 
+//********
 
 
