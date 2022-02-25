@@ -18,7 +18,12 @@ console.log("The difference between the first and last element within the array 
 //********
 //	Q#1c
 //********
-
+var count = 0;
+for (var i=0; i<newAge.length; i++) {
+  count += newAge[i];
+}
+var average = (count/newAge.length);
+console.log("The average age within this array is " + average);
 
 
 //********
