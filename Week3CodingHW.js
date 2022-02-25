@@ -9,7 +9,10 @@ console.log("The difference between the first and last element within the array 
 //********
 //	Q#1b
 //********
-
+ages.splice(8, 0, 57);
+var newAge = ages;
+var newDifference = newAge[newAge.length - newAge.length] - newAge[newAge.length - 1];
+console.log("The difference between the first and last element within the array is " + newDifference);
 
 
 //********
