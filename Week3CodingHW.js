@@ -175,5 +175,15 @@ console.log(willBuyDrink());
 //********
 //	Q#13 
 //********
+const ages = [9, 15, 25, 36, 47];
+const checkIfAdult = ages.filter(function(adult){
+  if(adult > 18){
+    return adult;
+  }
+});
+console.log(checkIfAdult);
+//Comments: This method goes through the array of ages and checks whether each element is above 18 using the filter() function.
+//The reason that this was created is that it would helped to filter out the ages that are considered adult.
+
 
 
