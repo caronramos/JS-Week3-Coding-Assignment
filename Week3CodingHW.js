@@ -1,7 +1,20 @@
 //********
-//	Q#1
+//	Q#1a
 //********
-int[] ages = new int[3, 9, 23, 64, 2, 8, 28, 93];
+var ages = [3, 9, 23, 64, 2, 8, 28, 93];
+var difference = ages[ages.length - ages.length] - ages[ages.length - 1];
+console.log("The difference between the first and last element within the array is " + difference);
+
+
+//********
+//	Q#1b
+//********
+
+
+
+//********
+//	Q#1c
+//********
 
 
 
